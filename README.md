@@ -1,7 +1,7 @@
 # HezhongMessage
 ## A powerful minecraft anticheat test-server plugin.
 
-# No ChatListener.java in it!
+# No ChatListener.java, Anticheats jar in it!
 
 Features:  
 - Scaffold Area
