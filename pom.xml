@@ -167,7 +167,7 @@
           <artifactId>luckpermsutils</artifactId>
           <version>1.0.0</version>
           <scope>system</scope>
-          <systemPath>F:\Skider\DupixelPlugins\HezhongDevelopment\LPUtils.jar</systemPath>
+          <systemPath>${project.basedir}\libs\LPUtils.jar</systemPath>
       </dependency>
 
 

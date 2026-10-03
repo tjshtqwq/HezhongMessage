@@ -1,2 +1,5 @@
 # 项目排除路径
 /target/
+/src/main/java/org/hzmsg/listener/ChatListener.java
+/src/main/java/org/hzmsg/SB.java
+/src/main/java/org/hzmsg/TestA.java
