@@ -10,11 +10,9 @@ import org.bukkit.event.player.PlayerKickEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 import org.bukkit.plugin.Plugin;
 import org.hzmsg.HezhongMessage;
+import org.hzmsg.utils.type.AnticheatInfo;
 
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
-import java.util.UUID;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 // Deepseek科技
@@ -32,7 +30,11 @@ public class KickHandler implements Listener {
         if (PluginHooker.getPluginManager() == null) {
             return;
         }
-        for (Plugin plugin : PluginHooker.getPluginManager().getPluginsToHook()) {
+        List<Plugin> anticheats = new ArrayList<>();
+        for (AnticheatInfo info : HezhongMessage.allAnticheats.values()) {
+            anticheats.add(info.plugin);
+        }
+        for (Plugin plugin : anticheats) {
             if (plugin == null) {
                 continue;
             }
