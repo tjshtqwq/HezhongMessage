@@ -1,0 +1,86 @@
+name: HezhongMessage
+version: '1.1.4.5.1.4'
+main: org.hzmsg.HezhongMessage
+prefix: Hezhong
+authors: [tjshawa]
+description: Message Plugins
+website: 114514
+depend: [KarhuAC, Tatako, MX, PluginHooker, LiteBans, LuckPermsUtils, Matrix, Vulcan]
+
+commands:
+  sword:
+    description: Sword
+    usage: /sword
+  block:
+    description: Block
+    usage: /block
+  d:
+    description: Damage
+    usage: /d
+  help:
+    description: Help
+    usage: /help
+  kick:
+    description: Fake punish
+    usage: /kick
+  ban:
+    description: Fake punish
+    usage: /ban
+  suicide:
+    description: Suicide
+    usage: /suicide
+  nofall:
+    description: NoFall
+    usage: /nofall
+  nodamage:
+    description: NoDamage
+    usage: /damage
+  gapple:
+    description: Gapple
+    usage: /gapple
+  shout:
+    description: Shout
+    usage: /shout
+  warp:
+    description: Warp
+    usage: /warp
+  alert:
+    description: Alert
+    usage: /alert
+  selac:
+    description: Select ac
+    usage: /selac
+  rest:
+    description: Restart message
+    usage: /rest
+  version:
+    description: Version
+    usage: /version
+    aliases: [ver]
+  plugins:
+    description: Plugins
+    usage: /plugins
+  tpa:
+    description: Tpa
+    usage: /tpa
+  tpaccept:
+    description: Tpaccept
+    usage: /tpaccept
+  tpdeny:
+    description: Tpdeny
+    usage: /tpadeny
+  fly:
+    description: Fly
+    usage: /fly
+  tpcancel:
+    description: Tpcancel
+    usage: /tpcancel
+  pingpong:
+    description: Pingpong
+    usage: /pingpong
+  pickaxe:
+    description: Pickaxe
+    usage: /pickaxe
+  info:
+    description: Info
+    usage: /info
